@@ -106,7 +106,7 @@ public abstract class Entity {
     protected int ao;
     public int dimension;
     protected int aq;
-    private boolean invulnerable;
+    public boolean invulnerable; // CraftBukkit - protected -> public
     public UUID uniqueID; // CraftBukkit - protected -> public
     public EnumEntitySize as;
     public boolean valid; // CraftBukkit

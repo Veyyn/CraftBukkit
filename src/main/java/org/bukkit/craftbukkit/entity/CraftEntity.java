@@ -399,4 +399,12 @@ public abstract class CraftEntity implements org.bukkit.entity.Entity {
 
         return getHandle().vehicle.getBukkitEntity();
     }
+
+    public boolean isInvulnerable() {
+	return getHandle().isInvulnerable();
+    }
+
+    public void setInvulnerable(boolean invulnerable) {
+	getHandle().invulnerable = invulnerable;
+    }
 }
